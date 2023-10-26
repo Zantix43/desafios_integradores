@@ -28,7 +28,7 @@ public class segundo_desafio {
 		String busqueda;
 
 		
-		try {v
+		try {
 		
 		while (limitador == false) {
 
