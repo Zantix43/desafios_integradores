@@ -146,7 +146,10 @@ public class quinto_desafio {
 		try {
 			File archivo = new File("C:\\Users\\Alumno\\Desktop\\ListaJugadores\\archivo_jugadores.txt");
 			
-
+			if (!archivo.exists()) {
+				archivo.createNewFile();
+	         }
+			
 			FileWriter fw = new FileWriter(archivo);
 
 	         
@@ -263,6 +266,9 @@ public class quinto_desafio {
 		try {
 			File archivo = new File("C:\\Users\\Alumno\\Desktop\\ListaJugadores\\archivo_jugadores.txt");
 			
+			if (!archivo.exists()) {
+				archivo.createNewFile();
+	         }
 
 			FileWriter fw = new FileWriter(archivo);
 
